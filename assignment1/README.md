@@ -10,9 +10,7 @@ It is built using **HTML5** and focuses on proper structure, semantic elements, 
 🔗 **Live Website:**  
 https://sudhanshdev.netlify.app/
 
-> (Hosted using GitHub Pages)
 
----
 
 ## 📌 Project Objective
 
