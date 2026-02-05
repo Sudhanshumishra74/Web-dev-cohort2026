@@ -335,8 +335,29 @@ body{
 .testimonial-footer img {
   width: 40px;
   height: 40px;
+  position: relative;
+  top: 40px;
   
 }
+figcaption{
+    color: var(--secondary-font-colour);
+
+}
+
+figcaption div{
+    width: 195px;
+    height: 42px;
+    display: block;
+  margin-left: 0px;
+  position: relative;
+  left: 60px;
+  color: var(--primary-font-color);
+}
+
+figcaption span{
+    color: var(--secondary-font-colour);
+}
+
 .seventh-section{
 margin-left: 100px;
 }
@@ -549,7 +570,7 @@ border: 2px solid var(--secondary-font-colour);
     height: 435px;
     width: 1520px;
     background-color: var(--box-background-color);
-    display: flex;
+ 
     justify-content: space-around;
     padding: 20px;
 }
@@ -560,6 +581,7 @@ border: 2px solid var(--secondary-font-colour);
     padding: 50px;
     gap: 150px;
     margin-right: 250px;
+    padding-left: 100px;
     
     
 }
@@ -580,4 +602,53 @@ border: 2px solid var(--secondary-font-colour);
     font-size: 14px;
     list-style: none;
     padding: 4.5px;
+}
+
+.last-box{
+    width: 1300px;
+    height: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 40px;
+    color: var(--secondary-font-colour);
+}
+
+.footer-box1{
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.footer-box2{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.footer-box2 div{
+    height: 25px;
+    width: 122px;
+    padding: 0 10px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    background-color: #25241F;
+    border-radius: 20px;
+    color: var(--secondary-font-colour);
+    
+    
+}
+
+.footer-box2 select{
+    height: 25px;
+    width: 122px;
+    padding: 0 10px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    background-color: var(--box-background-color);
+    border-radius: 20px;
+    color: var(--secondary-font-colour);
 }
